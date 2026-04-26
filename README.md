@@ -51,6 +51,27 @@ Returns active content based on:
 * Rotation logic
 
 ---
+## 📡 API Endpoints
+
+### Auth
+
+POST /auth/register
+POST /auth/login
+
+### Content
+
+POST /content/upload
+POST /content/schedule
+
+### Approval
+
+PUT /approval/approve/:id
+PUT /approval/reject/:id
+
+### Public
+
+GET /content/live/:teacherId
+
 
 ## ⚙️ Setup Instructions
 
