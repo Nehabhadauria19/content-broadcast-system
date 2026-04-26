@@ -72,6 +72,13 @@ PUT /approval/reject/:id
 
 GET /content/live/:teacherId
 
+## ⚠️ Assumptions
+
+* Only image files (JPG, PNG, GIF) are supported
+* Single file upload per content
+* Scheduling is based on rotation duration in minutes
+* Time window must be valid for content to appear
+* If no schedule is present, first valid content is returned
 
 ## ⚙️ Setup Instructions
 
